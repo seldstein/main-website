@@ -1,35 +1,19 @@
 body {
-    margin: 0;
     font-size: 1.3rem;
 }
 
-header {
+#navbar {
+    margin-top: 1.5rem;
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 10%;
 }
 
-.logo {
-    font-size: 4rem;
-    text-align: center;
-    padding: 2rem;
-}
-
-.navbar {
+.navbar-links {
     display: flex;
-    align-items: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 1rem;
+    flex-flow: row wrap;
 }
 
-.navlinks {
-    flex: 0 0 200px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20rem;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
+.navbar-links a {
+    padding: 0 1rem;
 }
