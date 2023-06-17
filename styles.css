@@ -2,11 +2,19 @@ body {
     font-size: 1.3rem;
 }
 
-#navbar {
-    margin-top: 1.5rem;
+header {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#logo {
+    font-size: 2rem;
+}
+
+#navbar {
+    display: flex;
 }
 
 .navbar-links {
@@ -14,6 +22,16 @@ body {
     flex-flow: row wrap;
 }
 
+header a {
+    padding: 0 2rem;
+    text-decoration: none;
+}
+
 .navbar-links a {
-    padding: 0 1rem;
+    padding: 0 .5rem;
+}
+
+main {
+    padding: 0 10rem;
+    margin-top: 4rem;
 }
