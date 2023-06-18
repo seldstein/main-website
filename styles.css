@@ -1,37 +1,37 @@
 body {
     font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
     padding: 1rem;
 }
 
 #logo {
-    font-size: 2rem;
-}
-
-#navbar {
-    display: flex;
-}
-
-.navbar-links {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-header a {
-    padding: 0 2rem;
-    text-decoration: none;
-}
-
-.navbar-links a {
-    padding: 0 .5rem;
+    font-size: 3rem;
 }
 
 main {
     padding: 0 10rem;
     margin-top: 4rem;
+}
+
+a {
+    color: #555555;
+    text-decoration: none;
+    border-bottom: 1px solid #555555;
+}
+
+a:visted {
+    color: grey;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1rem;
+    color: grey;
 }
