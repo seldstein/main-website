@@ -13,16 +13,29 @@ header {
 
 #logo {
     font-size: 3rem;
+    color: black;
 }
 
 main {
     padding: 0 10rem;
-    margin-top: 4rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 400;
 }
 
 a {
-    color: #444444;
     text-decoration: none;
+}
+
+main a {
+    color: #444444;
     border-bottom: 1px solid #555555;
 }
 
