@@ -1,5 +1,6 @@
 body {
-    font-size: 1.3rem;
+    font-family: "Minion Pro", "Georgia", serif;
+    font-size: 1.4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,12 +35,13 @@ a:visted {
 }
 
 .published-works-link {
-    color: #555555
+    color: #444444
 }
 
 footer {
     text-align: center;
-    padding: 2rem 0;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
     font-size: 1rem;
-    color: grey;
+    color: #444444;
 }
