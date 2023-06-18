@@ -20,13 +20,21 @@ main {
 }
 
 a {
-    color: #555555;
+    color: #444444;
     text-decoration: none;
     border-bottom: 1px solid #555555;
 }
 
+a:hover {
+    color: #888888
+}
+
 a:visted {
-    color: grey;
+    color: #888888;
+}
+
+.published-works-link {
+    color: #555555
 }
 
 footer {
