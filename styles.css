@@ -36,11 +36,12 @@ a {
 
 main a {
     color: #444444;
-    border-bottom: 1px solid #555555;
+    border-bottom: 1px solid #444444;
 }
 
 a:hover {
-    color: #888888
+    color: #888888;
+    border-color: #888888;
 }
 
 a:visted {
