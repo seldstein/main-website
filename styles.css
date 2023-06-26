@@ -1,14 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     font-family: "EB Garamond", serif;
     font-size: 1.6rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 header {
     text-align: center;
-    padding: 1rem;
 }
 
 #logo {
@@ -18,9 +22,21 @@ header {
 }
 
 main {
-    /*padding: 0 10rem;*/
     margin: 0 auto;
     width: 70%;
+    flex: 1;
+}
+
+@media screen and (max-width: 1000px)  {
+    main {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    main {
+        width: 95%;
+    }
 }
 
 h1, h2, h3 {
@@ -29,10 +45,12 @@ h1, h2, h3 {
 
 h1 {
     font-weight: 500;
+    margin: 0 auto;
 }
 
 a {
     text-decoration-thickness: 0.07rem;
+    text-underline-offset: 0.15rem;
 }
 
 main a {
