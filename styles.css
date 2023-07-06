@@ -16,8 +16,6 @@ header {
 }
 
 #logo {
-    font-size: 4rem;
-    color: black;
     text-decoration: none;
 }
 
@@ -44,30 +42,28 @@ h1, h2, h3 {
 }
 
 h1 {
+    font-size: 4rem;
     font-weight: 500;
     margin: 0 auto;
 }
 
-a {
+h1 a {
+    color: black;
+}
+
+ main a {
+    color: #666666;
     text-decoration-thickness: 0.07rem;
     text-underline-offset: 0.15rem;
 }
 
-main a {
-    color: #666666;
-}
-
-a:hover {
+main a:hover {
     color: #888888;
     border-color: #888888;
 }
 
-a:visted {
+main a:visted {
     color: #888888;
-}
-
-.published-works-link {
-    color: #444444
 }
 
 footer {
@@ -75,7 +71,7 @@ footer {
     padding-top: 2rem;
     padding-bottom: .5rem;
     font-size: 1rem;
-    color: #444444;
+    color: #666666;
 }
 
 strong {
