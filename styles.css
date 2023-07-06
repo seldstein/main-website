@@ -6,7 +6,7 @@ html, body {
 
 body {
     font-family: "EB Garamond", serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     display: flex;
     flex-direction: column;
 }
@@ -26,12 +26,6 @@ main {
 }
 
 @media screen and (max-width: 1000px)  {
-    main {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 600px)  {
     main {
         width: 95%;
     }
