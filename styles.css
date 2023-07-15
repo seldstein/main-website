@@ -11,6 +11,15 @@ body {
     flex-direction: column;
 }
 
+#navbar {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 1rem auto;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
 header {
     text-align: center;
 }
@@ -24,6 +33,8 @@ main {
     width: 70%;
     flex: 1;
 }
+
+/* MOBILE RESPONSIVE */
 
 @media screen and (max-width: 1000px)  {
     main {
@@ -45,20 +56,24 @@ h1 a {
     color: black;
 }
 
- main a {
+/* LINKS */
+
+ main a, #navbar a {
     color: #666666;
     text-decoration-thickness: 0.07rem;
     text-underline-offset: 0.15rem;
 }
 
-main a:hover {
+main a:hover, #navbar a:hover {
     color: #888888;
     border-color: #888888;
 }
 
-main a:visted {
+main a:visted, #navbar a:visited {
     color: #888888;
 }
+
+/* FOOTER */
 
 footer {
     text-align: center;
@@ -66,8 +81,4 @@ footer {
     padding-bottom: .5rem;
     font-size: 1rem;
     color: #666666;
-}
-
-strong {
-    font-weight: 900;
 }
