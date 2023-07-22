@@ -58,6 +58,10 @@ h1 a {
     color: black;
 }
 
+.smallcaps {
+    font-variant: small-caps;
+}
+
 /* LINKS */
 
  main a, #navbar a {
