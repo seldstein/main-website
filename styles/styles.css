@@ -1,8 +1,46 @@
+@font-face {
+    font-family: 'eb_garamond12_regular';
+    src:
+        url('fonts/eb-garamond/webfontkit/ebgaramond12-regular-webfont.woff2')format('woff2'),
+        url('fonts/eb-garamond/webfontkit/ebgaramond12-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eb_garamond_initialsregular';
+    src:
+        url('fonts/eb-garamond/webfontkit/ebgaramond-initials-webfont.woff2') format('woff2'),
+        url('fonts/eb-garamond/webfontkit/ebgaramond-initials-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorantregular';
+    src:
+        url('fonts/cormorant/webfontkit/cormorant-regular-webfont.woff2') format('woff2'),
+        url('fonts/cormorant/webfontkit/cormorant-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorant_scregular';
+    src:
+        url('fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff2') format('woff2'),
+        url('fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
     font-family: "EB Garamond", serif;
-  }
+}
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -21,7 +59,6 @@ body {
     margin: 1rem auto;
     gap: 1.5rem;
     flex-wrap: wrap;
-    font-family: "Cormorant SC";
 }
 
 header {
@@ -38,13 +75,15 @@ main {
 
 /* MOBILE RESPONSIVE */
 
-@media screen and (max-width: 1000px)  {
+@media screen and (max-width: 1000px) {
     body {
         width: 95%;
     }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Cormorant SC";
 }
 
@@ -64,18 +103,25 @@ h1 a {
 
 /* LINKS */
 
- main a, #navbar a {
+#navbar a {
+    font-family: "Cormorant SC";
+}
+
+main a,
+#navbar a {
     color: #666666;
     text-decoration-thickness: 0.07rem;
     text-underline-offset: 0.15rem;
 }
 
-main a:hover, #navbar a:hover {
+main a:hover,
+#navbar a:hover {
     color: #888888;
     border-color: #888888;
 }
 
-main a:visted, #navbar a:visited {
+main a:visted,
+#navbar a:visited {
     color: #888888;
 }
 
