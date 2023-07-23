@@ -19,8 +19,8 @@
 @font-face {
     font-family: "EB Garamond Italic";
     src:
-        url("fonts/eb-garamond/webfontkit/ebgaramond12-italic-webfont.woff2") format("woff2"),
-        url("fonts/eb-garamond/webfontkit/ebgaramond12-italic-webfont.woff") format("woff");
+        url("fonts/eb-garamond/webfontkit/EBGaramond-Italic.woff2") format("woff2"),
+        url("fonts/eb-garamond/webfontkit/EBGaramond-Italic.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -96,6 +96,7 @@ h1,
 h2,
 h3 {
     font-family: "Cormorant SC";
+    font-weight: 500;
 }
 
 h1 {
