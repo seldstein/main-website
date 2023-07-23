@@ -1,42 +1,53 @@
 @font-face {
-    font-family: 'eb_garamond12_regular';
+    font-family: "EB Garamond";
     src:
-        url('fonts/eb-garamond/webfontkit/ebgaramond12-regular-webfont.woff2')format('woff2'),
-        url('fonts/eb-garamond/webfontkit/ebgaramond12-regular-webfont.woff') format('woff');
+        url("fonts/eb-garamond/webfontkit/EBGaramond-Regular.woff2") format("woff2"),
+        url("fonts/eb-garamond/webfontkit/EBGaramond-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'eb_garamond_initialsregular';
+    font-family: "EB Garamond Bold";
     src:
-        url('fonts/eb-garamond/webfontkit/ebgaramond-initials-webfont.woff2') format('woff2'),
-        url('fonts/eb-garamond/webfontkit/ebgaramond-initials-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal; 
-}
-
-@font-face {
-    font-family: 'cormorantregular';
-    src:
-        url('fonts/cormorant/webfontkit/cormorant-regular-webfont.woff2') format('woff2'),
-        url('fonts/cormorant/webfontkit/cormorant-regular-webfont.woff') format('woff');
+        url("fonts/eb-garamond/webfontkit/EBGaramond-Bold.woff2") format("woff2"),
+        url("fonts/eb-garamond/webfontkit/EBGaramond-Bold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cormorant_scregular';
+    font-family: "EB Garamond Italic";
     src:
-        url('fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff2') format('woff2'),
-        url('fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff') format('woff');
+        url("fonts/eb-garamond/webfontkit/ebgaramond12-italic-webfont.woff2") format("woff2"),
+        url("fonts/eb-garamond/webfontkit/ebgaramond12-italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: "Cormorant SC";
+    src:
+        url("fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff2") format("woff2"),
+        url("fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+em {
+    font-family: "EB Garamond Italic", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-family: "EB Garamond Bold", serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
-    font-family: "eb_garamond12_regular", serif;
+    font-family: "EB Garamond", serif;
 }
 
 html,
@@ -84,7 +95,7 @@ main {
 h1,
 h2,
 h3 {
-    font-family: "cormorant_scregular";
+    font-family: "Cormorant SC";
 }
 
 h1 {
@@ -103,7 +114,7 @@ h1 a {
 /* LINKS */
 
 #navbar a {
-    font-family: "cormorant_scregular";
+    font-family: "Cormorant SC";
 }
 
 main a,
