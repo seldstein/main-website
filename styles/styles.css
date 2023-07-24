@@ -61,7 +61,6 @@ div p:first-of-type::first-letter {
     font-family: "Goudy Initialen", serif;
     font-size: 8rem;
     float: left;
-    line-height: 1;
 }
 
 html {
