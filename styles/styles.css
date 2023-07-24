@@ -26,6 +26,15 @@
 }
 
 @font-face {
+    font-family: "Goudy Initialen";
+    src:
+        url("fonts/goudy-initialen/webfontkit/GoudyInitialen.woff2") format("woff2"),
+        url("fonts/goudy-initialen/webfontkit/GoudyInitialen.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Cormorant SC";
     src:
         url("fonts/cormorant/webfontkit/cormorantsc-regular-webfont.woff2") format("woff2"),
@@ -44,6 +53,15 @@ strong {
     font-family: "EB Garamond Bold", serif;
     font-weight: normal;
     font-style: normal;
+}
+
+/* DROP CAPS */
+
+div p:first-of-type::first-letter {
+    font-family: "Goudy Initialen", serif;
+    font-size: 8rem;
+    float: left;
+    line-height: 1;
 }
 
 html {

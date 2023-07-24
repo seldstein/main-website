@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Goudy Initialen';
+    src: url('GoudyInitialen.woff2') format('woff2'),
+        url('GoudyInitialen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
