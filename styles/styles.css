@@ -1,3 +1,5 @@
+/* FONTS */
+
 @font-face {
     font-family: "EB Garamond";
     src:
@@ -55,8 +57,6 @@ strong {
     font-style: normal;
 }
 
-/* DROP CAPS */
-
 div p:first-of-type::first-letter {
     font-family: "Goudy Initialen", serif;
     font-size: 8rem;
@@ -65,6 +65,13 @@ div p:first-of-type::first-letter {
 
 html {
     font-family: "EB Garamond", serif;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 html,
