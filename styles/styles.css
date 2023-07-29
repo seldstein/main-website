@@ -116,6 +116,10 @@ main {
     }
 }
 
+#homepage-header {
+    display: none;
+}
+
 h1,
 h2,
 h3 {
