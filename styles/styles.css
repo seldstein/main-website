@@ -57,11 +57,13 @@ strong {
     font-style: normal;
 }
 
-div p:first-of-type::first-letter {
+/* DROP CAPS */
+
+/* div p:first-of-type::first-letter {
     font-family: "Goudy Initialen", serif;
-    font-size: 8rem;
+    font-size: 7rem;
     float: left;
-}
+} */
 
 html {
     font-family: "EB Garamond", serif;
@@ -81,6 +83,7 @@ body {
 
 body {
     font-size: 1.4rem;
+    line-height: 2rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
