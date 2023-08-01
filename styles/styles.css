@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 70vw;
+    width: 60vw;
 }
 
 #navbar {
@@ -130,6 +130,7 @@ h3 {
 h1 {
     font-size: 4rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 h1 a {
@@ -139,6 +140,10 @@ h1 a {
 .smallcaps {
     font-variant: small-caps;
     letter-spacing: 0.1rem;
+}
+
+.article-description {
+    text-align: center;
 }
 
 /* LINKS */
