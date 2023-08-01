@@ -154,11 +154,11 @@ main a,
     text-underline-offset: 0.15rem;
 }
 
-main a:hover,
-main a:focus,
 main a:visited,
-#navbar a:hover,
-#navbar a:focus {
+main a:focus,
+main a:hover,
+#navbar a:focus,
+#navbar a:hover {
     color: #888;
     border-color: #888;
 }
