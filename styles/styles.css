@@ -128,8 +128,8 @@ main {
 }
 
 h1 {
-    font-size: 4rem;    
-}
+    font-size: calc(1.5rem + 3vw);
+  }  
 
 h1,
 h2,
