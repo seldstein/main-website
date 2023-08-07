@@ -83,6 +83,7 @@ html {
 html,
 body {
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -91,7 +92,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 60vw;
 }
 
 #navbar {
@@ -115,20 +115,12 @@ main {
     flex: 1;
 }
 
-/* MOBILE RESPONSIVE */
-
-@media screen and (max-width: 75rem) {
-    body {
-        width: 95vw;
-    }
-}
-
 #homepage-header {
     display: none;
 }
 
 h1 {
-    font-size: calc(1.5rem + 3vw);
+    font-size: 4rem;
   }  
 
 h1,
