@@ -45,6 +45,12 @@
     font-style: normal;
 }
 
+i {
+    font-family: "EB Garamond Italic", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 em {
     font-family: "EB Garamond Italic", serif;
     font-weight: normal;
@@ -161,6 +167,11 @@ main a:hover,
 #navbar a:hover {
     color: #666;
     border-color: #666;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 1rem;
 }
 
 /* FOOTER */
