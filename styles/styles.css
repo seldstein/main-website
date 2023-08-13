@@ -140,6 +140,7 @@ h4 {
 
 h2 {
     border-bottom: 0.01rem solid;
+    text-align: right;
 }
 
 .smallcaps {
